@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- CSS -->
+    <link rel="stylesheet" href="js/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="js/plugins/slick-carousel/slick.css">
+    <link rel="stylesheet" href="js/plugins/slick-carousel/slick-theme.css">
+    <link rel="stylesheet" href="js/plugins/loaders/loaders.min.css">
+    <link rel="stylesheet" href="js/plugins/animate/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>zilli Movie</title>
+</head>
+<body class="bg-medium-light">
+	<div class="page-overlay bg-dark-light d-flex justify-content-center align-items-center">
+		<div class="loader">
+			<div class="cube-transition">
+				<div>
+					<div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark-light px-0" id="topnav">
+		<nav class="navbar navbar-dark bg-dark-light">
+			<a href="javascript:void(0)" class="navbar-brand">
+				<span class="lead font-weight-bold" id="website-name"><span style="color: #f3558e;">zilli</span> <span style="color: rgba(255, 255, 255, 0.5);">Movie</span></span>
+			</a>
+		</nav>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnav-content" aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse bg-medium-light justify-content-center" id="topnav-content">
+			<form action="" class="md-md-5 p-4 p-md-0 form-inline justify-content-center" id="search-form">
+				<input class="form-control m-0 border-0 rounded-0" id="search-input" type="search" placeholder="Search movies" aria-label="Search">
+				<button class="btn btn-dark m-0 border-0 rounded-0" id="search-btn" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<!--Sidenav-->
+			<div class="p-0 d-md-inline col-md-3 col-lg-3 col-xl-2" id="sidebar-container">
+				<div class="px-4 bg-dark-light" id="sidebar">
+					<p class="sidebar-labels pt-5 m-1 font-weight-bold">Browse</p>
+					<nav class="nav flex-column">
+						<a href="#now-playing" data-scroll class="nav-link active"><i class="fas fa-play"></i> Now Playing</a>
+						<a href="#upcoming" data-scroll class="nav-link "><i class="fas fa-bolt"></i> Upcoming</a>
+						<a href="#trending" data-scroll class="nav-link "><i class="fas fa-chart-line"></i> Trending</a>
+						<a href="#top-rated" data-scroll class="nav-link "><i class="fas fa-thumbs-up"></i> Top Rated</a>
+					</nav>
+				</div>
+			</div>
+
+			<div class="p-0 col-12 col-md-9 offset-md-3 col-lg-9 offset-lg-3 col-xl-10 offset-xl-2">
+				<div id="content"><!-- Dynamically loaded page content goes here --></div>
+			</div>
+
+			<!-- Page Footer -->
+			<div class="mt-5 md-3 col-md-9 offset-md-3 col-lg-9 offset-lg-3 col-xl-10 offset-xl-2">
+				<footer class="mt-5 d-flex p-4 justify-content-center">
+					<a href="https://www.themoviedb.org/documentation/api" target="_blank">
+						<img id="powered-by" src="img/tmdb-logo.png" alt="Powered By The Movie DB">
+					</a>
+				</footer>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!-- JavaScript -->
+    <script src="js/plugins/jquery/jquery-3.3.1.min.js"></script>
+    <script src="js/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/plugins/sticky-kit/jquery.sticky-kit.min.js"></script>
+    <script src="js/plugins/slick-carousel/slick.min.js"></script>
+    <script src="js/plugins/smooth-scroll/smooth-scroll.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+	</body>
+</html>
